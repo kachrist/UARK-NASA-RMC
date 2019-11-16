@@ -1,0 +1,24 @@
+@font-face { font-family: Nasalization; src: url('FONTS/nasalization/nasalization-rg.ttf') format('truetype'); }
+
+table#t01{
+  padding: 0px;
+  background-color: #9D2235;
+  margin: 0px;
+}
+
+h1.Razorbotz{ 
+  font-family: Nasalization;
+  font-size: 89px;
+  text-align: center;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  color: #D5EAE9 ;
+}
+h1.UofA{
+  font-family: Nasalization;
+  font-size: 40px;
+  text-align: center;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  color: #D5EAE9 ;
+}
