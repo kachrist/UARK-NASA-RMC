@@ -1,28 +1,40 @@
 @font-face { font-family: Nasalization; src: url('FONTS/nasalization/nasalization-rg.ttf') format('truetype'); }
 
-table.Header{
-  padding: 0px;
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 626px) {
+  .Header h1 {
+    font-size: 89px;
+  }
+  .Header h2{
+    font-size: 40px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 625px) {
+  .Header h1 {
+    font-size: 59px;
+  }
+  .Header h2{
+    font-size: 27px;
+  }
+}
+
+.Header{
+  padding: 10px;
   background-color: #9D2235;
   margin: 0px;
 }
-table.Header h1{ 
+.Header h1,
+.Header h2{
   font-family: Nasalization;
-  font-size: 89px;
   text-align: center;
   margin-block-start: 0px;
   margin-block-end: 0px;
   color: #D5EAE9 ;
 }
-table.Header h2{
-  font-family: Nasalization;
-  font-size: 40px;
-  text-align: center;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  color: #D5EAE9 ;
-}
-table.Header img {
+/* table.Header img {
   height: 180px;
   border-radius: 90px;
   margin: 5px;
-}
+} */

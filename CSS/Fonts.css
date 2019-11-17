@@ -1,8 +1,5 @@
 @font-face { font-family: Nasalization; src: url('FONTS/nasalization/nasalization-rg.ttf') format('truetype'); }
 
-.Fonts table{
-  width: 100%;
-}
 .Fonts h1{
   font-family: Nasalization;
   font-size: 40px;
