@@ -26,8 +26,6 @@ div.image img {
 	object-fit: contain;
 }
 
-
-
 /* Zoom effect for core images */
 .zoom img{
   transition: transform .4s;
