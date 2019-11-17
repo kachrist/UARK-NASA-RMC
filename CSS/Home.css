@@ -17,13 +17,13 @@ div.image {
 	min-width: 350px;
 	display: inline-block;
 	border: 0px;
-	text-align: center;
 }
 /* image propertes */
 div.image img {
 	max-height: 500px;
 	max-width: 95%;
-	object-fit: contain;
+	/* object-fit: contain; */
+	object-fit: cover;
 }
 
 /* Zoom effect for core images */

@@ -1,24 +1,19 @@
 @font-face { font-family: Nasalization; src: url('FONTS/nasalization/nasalization-rg.ttf') format('truetype'); }
 
-.Fonts h1{
+
+body h1, h2 th{
   font-family: Nasalization;
-  font-size: 40px;
   text-align: center;
   color: #655765 ;
 }
-.Fonts p{
-  font-family: "Verdana";
-  font-size: 20px;
-  text-align: center;
-  color: #655765 ;
+
+body p{
+	font-family: "Verdana";
+	font-size: 20px;
+	text-align: center;
+	color: #655765 ;
 }
-.Fonts th{
-  font-family: Nasalization;
-  font-size: 40px;
-  text-align: center;
-  color: #655765 ;
-}
+
 .Nasalization{
   font-family: Nasalization;
-  text-transform: uppercase;
 }

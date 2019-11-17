@@ -1,6 +1,6 @@
 @font-face { font-family: Nasalization; src: url('FONTS/nasalization/nasalization-rg.ttf') format('truetype'); }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* If the screen size is 626px wide or more, set the font-size of <h#> to *Big */
 @media screen and (min-width: 626px) {
   .Header h1 {
     font-size: 89px;
@@ -10,7 +10,7 @@
   }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 625px wide or less, set the font-size of <h#> to *Small */
 @media screen and (max-width: 625px) {
   .Header h1 {
     font-size: 59px;
