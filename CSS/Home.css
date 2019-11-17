@@ -1,15 +1,15 @@
-#wrapper {
-	width: 100%;
-	border: 1px solid black;
+div.wrapper {
+	text-align: center;
+	border: 0px;
 	overflow: hidden;
 }
 
 /* image container */
 div.image {
-	width: 45%;
-	min-width: 400px;
-	float:left;
-	border: 1px solid red;
+	width: 49%;
+	min-width: 350px;
+	display:inline-block;
+	border: 0px;
 	text-align: center;
 }
 
