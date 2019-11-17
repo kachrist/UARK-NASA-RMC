@@ -3,6 +3,7 @@
 .topnav {
   background-color: #424242;
   border-radius: 0px; 
+  z-index: 1;
 }
 .topnav a {
   font-family: Nasalization;
