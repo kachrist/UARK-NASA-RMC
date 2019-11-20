@@ -4,6 +4,7 @@ main{
   padding-right: 5%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 75px;
 }
 
 div.event-wrapper {
@@ -26,9 +27,14 @@ div.image {
 /* image propertes */
 div.image img {
 	max-width: 90%;
-	max-height: 400px;
+	max-height: 450px;
   width: auto;
   height: auto;
   border-radius: 40px;
 	object-fit: cover;
+}
+
+object{
+  width: 100%;
+  height: 200;
 }
