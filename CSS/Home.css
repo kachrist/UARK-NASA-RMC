@@ -9,8 +9,7 @@ div.image-wrapper {
 	overflow: hidden;
 	padding-bottom: 10px;
 }
-
-/* Allows 2x2 of 2x4 image sizing */
+/* Allows 2x2 of 1x4 image sizing */
 /* image container */
 div.image {
 	width: 49%;
@@ -35,4 +34,13 @@ div.image img {
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
   transform: scale(1.05); 
+}
+
+/* wrapper of social media */
+div.media-wrapper {
+	text-align: center;
+	border: 0px;
+  overflow: hidden;
+  padding-top: 10px;
+	padding-bottom: 10px;
 }
