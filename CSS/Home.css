@@ -88,10 +88,15 @@ div.media-wrapper {
   }
 
 /* Follow Us Block */
-.follow-us{
-	width: 49%;
-	min-width: 350px;
-	display: inline-block;
-  border: 0px;
-  vertical-align: top;
-}
+  .follow-us{
+    width: 49%;
+    min-width: 350px;
+    display: inline-block;
+    border: 0px;
+    vertical-align: top;
+  }
+  .follow-us-scale {
+    -ms-transform: scale(1.5, 1.5); /* IE 9 */
+    -webkit-transform: scale(1.5, 1.5); /* Safari */
+    transform: scale(1.5, 1.5);
+  }
