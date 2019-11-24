@@ -22,15 +22,15 @@ div.home-image img {
 }
 
 /* Zoom effect for core images */
-.zoom img{
-  transition: transform .4s;
-  margin: 0 auto;
-}
-.zoom img:hover{
-  -ms-transform: scale(1.05); /* IE 9 */
-  -webkit-transform: scale(1.05); /* Safari 3-8 */
-  transform: scale(1.05); 
-}
+  .zoom img{
+    transition: transform .4s;
+    margin: 0 auto;
+  }
+  .zoom img:hover{
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
 
 /* wrapper of social media */
 div.media-wrapper {
@@ -39,4 +39,59 @@ div.media-wrapper {
   overflow: hidden;
   padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+/* Phone grapic */
+  .smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    display: inline-block;
+  }
+  
+  /* The horizontal line on the top of the device */
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+  }
+  /* The screen (or content) of the device */
+    .smartphone .content {
+    width: 328px;
+    height: 520px;
+    background: white;
+  }
+
+/* Follow Us Block */
+.follow-us{
+	width: 49%;
+	min-width: 350px;
+	display: inline-block;
+  border: 0px;
+  vertical-align: top;
 }
