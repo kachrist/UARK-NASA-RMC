@@ -1,0 +1,14 @@
+div.demographic-wrapper {
+	text-align: center;
+	border: 0px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+/* Allows 2x2 of 1x4 image sizing */
+/* image container */
+div.demographic {
+	width: 49%;
+	min-width: 350px;
+	display: inline-block;
+	border: 0px;
+}
