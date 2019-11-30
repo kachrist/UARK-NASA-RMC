@@ -9,7 +9,6 @@ function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
 }
 
-
 // Thumbnail image controls
 function currentSlide(n,no) {
   showSlides(slideIndex[no] = n, no);
