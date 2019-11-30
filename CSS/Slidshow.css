@@ -48,6 +48,7 @@
   position: absolute;
   bottom: 8px;
   left: 50%;
+  width: fit-content;
   transform: translate(-50%);
   text-align: center;
   background-color: rgba(255, 255, 255, 0.6);
@@ -59,7 +60,7 @@
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px 15px;
+  margin: 17px 2px 15px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -90,5 +91,5 @@
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next, .text {font-size: 11px}
 }

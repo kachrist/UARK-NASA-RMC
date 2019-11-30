@@ -4,7 +4,7 @@ main{
   padding-right: 5%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 
 div.event-wrapper {
@@ -15,15 +15,18 @@ div.event-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
+
 div.event-wrapper p{
   margin-top: 10px;
 }
+
 div.image {
 	text-align: center;
 	border: 0px;
   margin-left: auto;
   margin-right: auto;
 }
+
 /* image propertes */
 div.image img {
 	max-width: 100%;
