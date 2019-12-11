@@ -3,7 +3,6 @@
 <!-- Head -->
 <head>
   <title>Arkansas RazorBotz</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="IMG/Logos/Razorbotz Logo Round 2.png">
 	<link rel="stylesheet" type="text/css" href="CSS/Fonts.css">
@@ -14,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="CSS/NAV.css">
 	<link rel="stylesheet" type="text/css" href="CSS/Footer.css">
 	<link rel="stylesheet" type="text/css" href="CSS/Main.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Slidshow.css">
 </head>
 
 <body>
@@ -71,23 +71,67 @@
         title on the first picture.
       </p>
     </div>
-    
-    <div class="event-wrapper">
+
+    <!-- Robotics Lab -->
+     <div class="event-wrapper">
+      <!-- Slideshow container -->
       <h1>Robotics Lab</h1>
-      <div class="image">
-        <img src="IMG/Facilities/Build Day.png">
+      <div class="slideshow-container image">
+        
+        <div class="mySlides1 fade in">
+          <img src="IMG/Facilities/Build Day.png" style="width:100%; border-radius: 40px;">
+          <div class="text">Saturday Build Day Fall 2019</div>
+        </div>
+
+        <div class="mySlides1 fade in">
+          <img src="IMG/Facilities/Robotics Lab.jpg" style="width:100%; border-radius: 40px;">
+          <div class="text">Empty Robotics Lab</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
       </div>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot dot1 active" onclick="currentSlide(1,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(2,0)"></span>
+      </div>
+
       <p>Our Robots Lab was recently upgraded to help facilitate the needs of our 
         growing team. We have __ Computer stations to allow multiple students to 
         research, design, and run complex FEA (Finite Element Analysis).
       </p>
     </div>
 
+    <!-- 3D Print Lab -->
     <div class="event-wrapper">
+      <!-- Slideshow container -->
       <h1>3D Print Lab</h1>
-      <div class="image">
-        <img src="IMG/Facilities/3D Print Lab.jpg">
+      <div class="slideshow-container image">
+        
+        <div class="mySlides2 fade in">
+          <img src="IMG/Facilities/3D Print Lab 1.jpg" style="width:100%; border-radius: 40px;">
+          <!-- <div class="text">__</div> -->
+        </div>
+
+        <div class="mySlides2 fade in">
+          <img src="IMG/Facilities/3D Print Lab 2.jpg" style="width:100%; border-radius: 40px;">
+          <!-- <div class="text">__</div> -->
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
       </div>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot dot2 active" onclick="currentSlide(1,1)"></span>
+        <span class="dot dot2" onclick="currentSlide(2,1)"></span>
+      </div>
+
       <p>Directly nextdoor to our lab are 4 high quality _(brand/name)_ 3D Printers 
         allowing our team members to rapidly prototype their designs in a matter of 
         hours. Our team has also found that these 3D prints are strong enough to use 
@@ -97,11 +141,39 @@
       </p>
     </div>
 
+    <!-- Machine Shop -->
     <div class="event-wrapper">
+      <!-- Slideshow container -->
       <h1>Machine Shop</h1>
-      <div class="image">
-        <img src="IMG/Facilities/Mini CNC Mill.jpg">
+      <div class="slideshow-container image">
+        
+        <div class="mySlides3 fade in">
+          <img src="IMG/Facilities/Machine Shop.jpg" style="width:100%; border-radius: 40px;">
+          <div class="text">Full Machine Shop</div>
+        </div>
+
+        <div class="mySlides3 fade in">
+          <img src="IMG/Facilities/Lathes.jpg" style="width:100%; border-radius: 40px;">
+          <div class="text">Sevaral Mini Lathes</div>
+        </div>
+
+        <div class="mySlides3 fade in">
+          <img src="IMG/Facilities/Mini CNC Mill.jpg" style="width:100%; border-radius: 40px;">
+          <div class="text">Mini Mill CNC</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
       </div>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot dot3 active" onclick="currentSlide(1,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(2,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(3,2)"></span>
+      </div>
+
       <p>Our team also has access to full machine shop just down stairs kitted out 
         with both manual and CNC Mills and Lathes along with bandsaws, belt sanders, a 
         laser cutter and much more. This allows our team to manufacture strong and complex 
@@ -109,6 +181,7 @@
       </p>
     </div>
 
+    <!-- Testing Facilites -->
     <div class="event-wrapper">
       <h1>Testing Facilites</h1>
       <div class="image">
@@ -131,6 +204,7 @@
   
   <!-- Scrips -->
   <script src="CSS/NAV.js" type="text/javascript"></script>
+  <script src="CSS/Slideshow.js" type="text/javascript"></script>
   <!-- For Nav Bar -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
