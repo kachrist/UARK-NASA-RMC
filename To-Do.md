@@ -1,4 +1,10 @@
 # UARK-NASA-RMC
+NAV BAR:
+- KC: Weird Colapsing
+
+CSS.HOME:
+- images colapsing
+
 Home:
 - Looks good 
 - maybe a better intro paragraph? 
