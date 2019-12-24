@@ -1,0 +1,8 @@
+div.floating-text-boxes {
+  width: 49%;
+  min-width: 350px;
+  display: inline-block;
+  border: 0px;
+  vertical-align: text-top;
+  padding: 20px;
+}
