@@ -10,12 +10,13 @@ Competitions:
    - Team Leads (Who Are We? Section)
    - Sub-Team Breakdown
    - Add Team picture
+   - KC: Fix using 'Home.css' file on this page
 
     2018-2019:
    - Contest images
    - Contest descriptions
    - Add Team Picture
-   
+
     2017-2018:
    - contest descriptions
    - Design
