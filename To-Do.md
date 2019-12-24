@@ -13,10 +13,10 @@ Competitions:
    2019-2020:
    - EVERYTHING
    - CAD models
-   - Team Leads (Who Are We? Section)
-   - Sub-Team Breakdown
+   - Team Leads (Who Are We for real though? Section)
    - Add Team picture
-   - KC: Fix using 'Home.css' file on this page
+   - DONE: KC: Fix using 'Home.css' file on this page
+   - DONE: KR: Sub-Team Breakdown 
 
     2018-2019:
    - Contest images
@@ -29,7 +29,7 @@ Competitions:
 
     2016-2017:
    - Images links
-   - team picture to top of page - DONE (KC)
+   - Done: KC: team picture to top of page
 
 Outreach:
 - Event descriptions
