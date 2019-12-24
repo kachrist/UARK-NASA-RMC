@@ -10,7 +10,8 @@ div.home-image {
 	width: 49%;
 	min-width: 350px;
 	display: inline-block;
-	border: 0px;
+  border: 0px;
+  vertical-align: text-top;
 }
 /* image propertes */
 div.home-image img {
