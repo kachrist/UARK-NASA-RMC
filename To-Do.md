@@ -12,8 +12,11 @@ Home:
 Competitions:
    2019-2020:
    - EVERYTHING
-   - CAD models
-   - Team Leads (Who Are We for real though? Section)
+   - CAD images - SEE SLIDESHOW CONTAINER COMMENT
+      - The head slideshow.css has been added to the 2019-2020 page
+      - The slideshow container (without the pictures) has been added
+      - KC: As I'm sure you'd know - straight copy paste didn't work. -KR
+   - Team Leads (Who Are We for real though? Section) - MAYBE
    - Add Team picture
    - DONE: KC: Fix using 'Home.css' file on this page
    - DONE: KR: Sub-Team Breakdown 
