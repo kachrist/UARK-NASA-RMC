@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="CSS/Main.css">
   <link rel="stylesheet" type="text/css" href="CSS/Competition.css">
   <link rel="stylesheet" type="text/css" href="CSS/Floating-Text-Boxes.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Slidshow.css">
 </head>
 
 <body>
@@ -64,6 +65,8 @@
 
 	<!-- Core body of page -->
 	<main class="content">
+
+    <!-- Team Picture -->
     <div class="event-wrapper">
       <h1>2019-2020</h1>
       <!-- FIXME: Replace logo with team photo -->
@@ -103,50 +106,68 @@
         and building a testing bed for the robot’s physical systems, writing the systems engineering 
         report, and cultivating and coordinating outreach opportunities. 
       </p>
+      <div class="image-wrapper">
+        <div class="floating-text-boxes">
+          <h1>Mobility</h1>
+          <p>
+            The Mobility team focused on optimizing and shrinking the chassis designed in 2018-2019, allowing the team to maintain the weight reduction. 
+          </p>
+        </div>
+        <div class="floating-text-boxes">
+          <h1>Excavation</h1>
+          <p>
+            The Excavation team focused on developing a creative and effective excavation system through prototyping and physical testing.
+          </p>
+        </div>
+        <div class="floating-text-boxes">
+          <h1>Testing</h1>
+          <p>
+            The Testing team tackled the problem of finding a location to safely perform physical tests for design evaluation. 
+          </p>
+        </div>
+        <div class="floating-text-boxes">
+          <h1>Computer Systems</h1>
+          <p>
+            The Computer Systems team is working on sensor selection, controls programming, as well as the design and implimentation of autonomy.
+          </p>
+        </div>
+        <div class="floating-text-boxes">
+          <h1>Writing</h1>
+          <p>
+            The Writing team has a member inbedded in each subteam assisting and documenting team progress to develop the best systems engineering report possible. 
+          </p>
+        </div>
+        <div class="floating-text-boxes">
+          <h1>Outreach</h1>
+          <p>
+            The Outreach team worked on building long term contacts with local schools and 
+            organizations. 
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="image-wrapper">
-      <div class="floating-text-boxes">
-        <h1>Mobility</h1>
-        <p>
-          The Mobility team focused on optimizing and shrinking the chassis designed in 2018-2019, allowing the team to maintain the weight reduction. 
-        </p>
-      </div>
-      <div class="floating-text-boxes">
-        <h1>Excavation</h1>
-        <p>
-          The Excavation team focused on developing a creative and effective excavation system through prototyping and physical testing.
-        </p>
-      </div>
-      <div class="floating-text-boxes">
-        <h1>Testing</h1>
-        <p>
-          The Testing team tackled the problem of finding a location to safely perform physical tests for design evaluation. 
-        </p>
-      </div>
-      <div class="floating-text-boxes">
-        <h1>Computer Systems</h1>
-        <p>
-          The Computer Systems team is working on sensor selection, controls programming, as well as the design and implimentation of autonomy.
-        </p>
-      </div>
-      <div class="floating-text-boxes">
-        <h1>Writing</h1>
-        <p>
-          The Writing team has a member inbedded in each subteam assisting and documenting team progress to develop the best systems engineering report possible. 
-        </p>
-      </div>
-      <div class="floating-text-boxes">
-        <h1>Outreach</h1>
-        <p>
-          The Outreach team worked on building long term contacts with local schools and 
-          organizations. 
-        </p>
-      </div>
+
+    <!-- Slideshow container -->
+    <h1>Designing the Robot</h1>
+    <div class="slideshow-container image">
+      <!-- FIXME: This should contain CAD screenshots for excavation and mobility + brief description -->
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+    </div>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot dot1 active" onclick="currentSlide(1,0)"></span>
+      <span class="dot dot1" onclick="currentSlide(2,0)"></span>
+      <span class="dot dot1" onclick="currentSlide(3,0)"></span>
+      <span class="dot dot1" onclick="currentSlide(4,0)"></span>
     </div>
 
     <!-- The Teams Demographics -->
     <h1>The Teams Demographics</h1>
-    <div class="demographic-wrapper">
+    <div class="demgraphic-wrapper">
       <!-- School Year -->
       <div class="demographic">
         <iframe width="313" height="189" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQIPl1yvkZpC0n5bXZi60yjQEB3v0cvOf3R4mWSz-JcsEQ7DQhT-1qUAymxxbHjkXgTttYogxxlApj6/pubchart?oid=709874950&amp;format=interactive"></iframe>
