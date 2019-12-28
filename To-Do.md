@@ -16,7 +16,8 @@ Competitions:
       - Need placeholder image for missing content
       - The head slideshow.css has been added to the 2019-2020 page
       - The slideshow container (without the pictures) has been added
-      - KC: "As I'm sure you already know - straight copy paste don't work." -KR
+      - Create Picture folder for 2020 Robot
+      - update slideshow to have individual reference numbers
    - Team Leads (Who Are We for real though? Section) - MAYBE
    - Add Team picture
    - DONE: KC: Fix using 'Home.css' file on this page
