@@ -24,7 +24,7 @@
   text-decoration-line: none !important;
 }
 
-/* Position the "next button" to the left */
+/* Position the "previous button" to the left */
 .prev {
   left: 0;
   border-radius: 0 10px 10px 0;
