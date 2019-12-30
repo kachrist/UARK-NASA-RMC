@@ -14,10 +14,7 @@ Competitions:
    - EVERYTHING
    - CAD images - SEE SLIDESHOW CONTAINER COMMENT
       - Need placeholder image for missing content
-      - The head slideshow.css has been added to the 2019-2020 page
-      - The slideshow container (without the pictures) has been added
-      - Create Picture folder for 2020 Robot
-      - update slideshow to have individual reference numbers
+      - Slideshow images are too high (aren't fully shown in slideshow box)
    - Team Leads (Who Are We for real though? Section) - MAYBE
    - Add Team picture
    - DONE: KC: Fix using 'Home.css' file on this page
