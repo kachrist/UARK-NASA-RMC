@@ -1,7 +1,8 @@
 # UARK-NASA-RMC
 NAV BAR:
-- KC: Weird Colapsing
-   created bootstrap.css - now modifying the @media width values
+- DONE: KC & KR: Weird Colapsing
+   KR: created bootstrap.css
+   KC: modified the @media width values
 
 CSS.HOME:
 - KC: images colapsing - low priority (sample: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_team)
@@ -16,7 +17,7 @@ Competitions:
    - EVERYTHING
    - CAD images - SEE SLIDESHOW CONTAINER COMMENT
       - Need placeholder image for missing content
-      - Slideshow images are too high (aren't fully shown in slideshow box)
+      - DONE: KC: Slideshow images are too high (aren't fully shown in slideshow box)
    - Team Leads (Who Are We for real though? Section) - MAYBE
    - Add Team picture
    - DONE: KC: Fix using 'Home.css' file on this page
@@ -47,3 +48,5 @@ Contact Info:
 
 Donate:
 - LOL
+- Change to Sponsors or Get Involved
+- List sponsors & Community Members
