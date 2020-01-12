@@ -1,13 +1,15 @@
 # UARK-NASA-RMC
 NAV BAR:
 - KC: Weird Colapsing
+   created bootstrap.css - now modifying the @media width values
 
 CSS.HOME:
-- images colapsing
+- KC: images colapsing - low priority (sample: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_team)
 
 Home:
-- Looks good 
-- maybe a better intro paragraph? 
+- Looks good
+- 2016-2017 competition page
+- DONE: KR: maybe a better intro paragraph? 
 
 Competitions:
    2019-2020:
