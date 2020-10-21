@@ -5,3 +5,6 @@
  -Joselinn Galindo     (Helping fill in info for 2016-2017)
  -Jeff (from MEEG IT)  (Helping to get us hosted on a .uark.edu domain)
  -Canon Reves          (Helping with background information for 2016-2017)
+ -Melenda
+ -Alex
+ -Andrew
